@@ -5,7 +5,7 @@ const ResponseForm = () => {
   return (
     <section id="response-form">
       <Container>
-        <h1 className="text-center">Válasz</h1>
+        <h1 className="text-center">Visszajelzés</h1>
         <Ratio aspectRatio={1 / 2}>
           <iframe
             title="Respond form"

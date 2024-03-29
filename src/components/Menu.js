@@ -18,6 +18,7 @@ const Menu = () => {
           <Nav className="me-auto">
             <Nav.Link href="#venue">Helyszín</Nav.Link>
             <Nav.Link href="#schedule">Menetrend</Nav.Link>
+            {/* <Nav.Link href="#info">Tudnivalók</Nav.Link> */}
             <Nav.Link href="#response-form">Visszajelzés</Nav.Link>
           </Nav>
         </Navbar.Collapse>

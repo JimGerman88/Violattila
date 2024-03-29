@@ -3,6 +3,7 @@ import Intro from "./Intro/Intro";
 import Schedule from "./Schedule/Schedule";
 import Venues from "./Venues/Venues";
 import ResponseForm from "./ResponseForm/ResponseForm";
+import Information from "./Information/Information";
 
 const Content = () => {
   return (
@@ -10,6 +11,7 @@ const Content = () => {
       <Intro />
       <Venues />
       <Schedule />
+      {/* <Information /> */}
       <ResponseForm />
     </div>
   );
