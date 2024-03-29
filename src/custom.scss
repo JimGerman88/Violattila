@@ -10,4 +10,13 @@ $navbar-light-hover-color: #2b3453;
 $navbar-light-brand-color: #6175b6;
 $navbar-light-disabled-color: #6175b6;
 
+$display-font-sizes: (
+  1: 6rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+);
+
 @import "~bootstrap/scss/bootstrap.scss";

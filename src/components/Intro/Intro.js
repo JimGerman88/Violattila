@@ -10,10 +10,10 @@ const Intro = () => {
             Viola <small>és</small> Attila
           </h1>
           <h2 className="text-white">2024. 07. 20.</h2>
-          <h5 className="text-white mt-3 text-center">
+          <p className="text-white mt-3 text-center lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </h5>
+          </p>
         </Container>
       </div>
     </section>
