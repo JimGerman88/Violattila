@@ -42,6 +42,21 @@ h4 {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  flex: 1 1 200px;
+}
+
+.intro-body .response-button {
+  text-shadow: none;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #2258aa;
+  background: #fff;
+  margin-bottom: 25px;
+  transition: all 0.2s ease;
+  background-image: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
 }
 
 .venue-element {

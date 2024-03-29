@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "./Intro/Intro";
 import Schedule from "./Schedule/Schedule";
 import Venues from "./Venues/Venues";
+import ResponseForm from "./ResponseForm/ResponseForm";
 
 const Content = () => {
   return (
@@ -9,6 +10,7 @@ const Content = () => {
       <Intro />
       <Venues />
       <Schedule />
+      <ResponseForm />
     </div>
   );
 };
