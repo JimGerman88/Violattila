@@ -1,6 +1,8 @@
 {
   "name": "wedding",
   "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jimgerman88.github.io/Violattila",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "eslint": "^8.57.0",
