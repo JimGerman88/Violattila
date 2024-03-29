@@ -54,8 +54,24 @@ h4 {
   padding: 2rem;
   border-right: 1px solid lightsteelblue;
 }
+.venue-location {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
 .venue-map {
   padding: 0;
+}
+
+@media (max-width: 576px) {
+  .venue-element {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .venue-body {
+    padding: 1.2rem;
+  }
 }
 
 /* TIMELINE */

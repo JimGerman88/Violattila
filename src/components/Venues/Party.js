@@ -1,14 +1,29 @@
 import React from "react";
 import { Ratio, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Party = () => {
   return (
     <Row className="venue-element">
       <Col lg={6} className="venue-body">
         <h2>Lakodalom</h2>
-        <h5>Soós István Borászati Szakképző Iskola Tangazdasága</h5>
-        <h6 className="text-uppercase">Budapest 1221, Jósika u. 14.</h6>
-        <p>Hamarosan bővül...</p>
+        <div className="venue-location">
+          <FontAwesomeIcon icon={faLocationDot} />
+          <div>
+            <h5>Soós István Borászati Szakképző Iskola Tangazdasága</h5>
+            <p className="text-uppercase small">Budapest 1221, Jósika u. 14.</p>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </Col>
       <Col lg={6} className="venue-map">
         <Ratio aspectRatio={"4x3"}>
